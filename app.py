@@ -15,4 +15,4 @@ st.write('Your input: ', query)
 
 image = ''
 
-st.image(image, caption=)
+st.image(image, caption=query)
