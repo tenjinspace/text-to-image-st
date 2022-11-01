@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from datetime import date
 
 df = pd.DataFrame({
   'first column': [1, 2, 3, 4],
