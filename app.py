@@ -14,9 +14,6 @@ st.header('text-to-image AI model')
 st.subheader('Today is: {}'.format(today))
 
 objects = st.text_input('Object(s) on the scene','A bear and a rooster')
-st.write('Your input: ', objects)
-#background = st.text_input()
-#colors = st.text_input()
-#style = st.text_input()
-
+background = st.text_input('Background of the scene','in a cyberpunk destroyed city')
+st.write('Your input: ', objects, background)
 st.dataframe(df)
